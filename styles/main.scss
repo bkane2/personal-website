@@ -1,0 +1,238 @@
+// TO UPDATE:
+// sass public/styles/main.scss public/styles/main.css
+
+// Colors scheme defined here
+$lightblue: #6190ac;
+$darkblue: #395974;
+$red: #cd4924;
+$black: #000000;
+$silver: #F2F5F7;
+$white: #ffffff;
+
+$selected: $lightblue;
+$info: $lightblue;
+$link: $lightblue;
+$primary: $darkblue;
+$background: $silver;
+
+// Import bulma defaults
+@import '../vendors/bulma/bulma.sass';
+
+html {
+  background: $background;
+}
+
+.footer {
+  padding: 1.5rem 1.5rem 1.5rem;
+}
+
+.image.is-256x256 {
+  height: 256px;
+  width: 256px;
+}
+
+.image img.is-ellipse {
+  // border-radius: 290486px;
+  border-radius: 100000px;
+  border-bottom-left-radius: 35% 25%;
+  border-bottom-right-radius: 35% 25%;
+  border-top-left-radius: 35% 25%;
+  border-top-right-radius: 35% 25%;
+  border: 10px solid $darkblue
+}
+
+.small-hr {
+  background-color: $background;
+  border: none;
+  display: block;
+  height: 0.5px;
+  margin: 1.0rem 0;
+}
+
+.large-hr {
+  background-color: $background;
+  border: none;
+  display: block;
+  height: 1.5px;
+  margin: 6.0rem 0;
+}
+
+.has-text-weight-bold {
+  font-weight: 600 !important;
+  color: $black;
+}
+
+.fix-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  overflow:hidden;
+}
+
+// .hero-main {
+//   background-image: url("../images/background.png");
+//   background-repeat: no-repeat;
+//   background-size: 100% 100%;
+// }
+
+// .hero-image {
+//   float: right;
+// }
+
+// .hero-image {
+//   align-items: center;
+//   display: flex;
+// }
+// .hero-image > .image {
+//   flex-grow: 1;
+//   flex-shrink: 1;
+// }
+
+// .navbar-dropdown {
+//   min-width: 120%;
+//   max-width: none;
+//   width: auto;
+// }
+
+// .modal-content {
+//   max-width: none;
+//   width: auto;
+// }
+
+// .box.is-selected {
+//   background-color: $selected;
+// }
+
+// .is-ghost {
+//   display: none;
+// }
+
+// .column > .card {
+//   height: 100%;
+// }
+
+// .card-content.is-centered {
+//   padding: 25% 0;
+//   text-align: center;
+//   vertical-align: middle;
+// }
+
+// .flashcard > .card-header:hover {
+//   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px $selected;
+// }
+
+// .flashcard.hidden {
+//   background-image:
+//     radial-gradient(
+//       #ccc,
+//       rgb(150, 150, 150)
+//     );
+// }
+
+// .flashcard.hidden > .card-header {
+//   background-color: $white;
+// }
+
+// .modal-content {
+//   flex-grow: 0.5;
+// }
+
+// .button.is-wide {
+//   width: 80%;
+// }
+
+// .button.is-centered {
+//   justify-content: center;
+// }
+
+// iframe {
+//   width: 100%;
+// }
+
+// .video-wrapper {
+//   position: relative;
+//   width: 100%;
+//   height: 0;
+//   padding-bottom: 56%;
+// }
+
+// .aspect-ratio iframe {
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   left: 0; top: 0;
+// }
+
+// #video-display {
+//   padding-bottom: 5%;
+// }
+
+// #frontpage-buttons {
+//   justify-content: center;
+//   text-align: center;
+// }
+
+// #link-login, #link-register {
+//   width: 200px;
+// }
+
+// #word-submit, #translate-submit {
+//   width: 200px;
+// }
+
+// .is-red {
+//   color: $red;
+// }
+
+// #table-display {
+//   overflow-x: auto;
+// }
+
+// .navbar-burger {
+//   background: $primary;
+//   border: none;
+// }
+
+// .navbar-burger > span {
+//   background: $black;
+// }
+
+// #frontpage {
+//   background-image: url("/images/frontpage.svg");
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-size: cover;
+//   background-color: $info;
+// }
+
+// #frontpage-footer {
+//   background: $primary;
+//   height: 100px;
+// }
+
+// #frontpage-slogan {
+//   font-weight: bold;
+// }
+
+// #flag-footer {
+//   align-items: center;
+//   justify-content: space-evenly;
+//   overflow: hidden;
+// }
+
+// #flag-footer-items {
+//   position: relative;
+//   right: 10px;
+//   width: 5000px;
+// }
+
+// .flag-footer-item {
+//   padding: 0 5px 0 5px;
+// }
+
+
+
+
+// TO UPDATE:
+// sass styles/main.scss styles/main.css
