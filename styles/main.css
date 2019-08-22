@@ -958,7 +958,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 }
 
 .has-text-grey {
-  color: #7a7a7a !important;
+  color: #6b655a !important;
 }
 
 .has-text-grey-light {
@@ -2238,7 +2238,7 @@ a.box:active {
 .button.is-static {
   background-color: whitesmoke;
   border-color: #dbdbdb;
-  color: #7a7a7a;
+  color: #6b655a;
   box-shadow: none;
   pointer-events: none;
 }
@@ -2527,23 +2527,23 @@ a.box:active {
   background-color: #F2F5F7;
   border-color: #F2F5F7;
   box-shadow: none;
-  color: #7a7a7a;
+  color: #6b655a;
 }
 .input[disabled]::-moz-placeholder,
 .textarea[disabled]::-moz-placeholder {
-  color: rgba(122, 122, 122, 0.3);
+  color: rgba(107, 101, 90, 0.3);
 }
 .input[disabled]::-webkit-input-placeholder,
 .textarea[disabled]::-webkit-input-placeholder {
-  color: rgba(122, 122, 122, 0.3);
+  color: rgba(107, 101, 90, 0.3);
 }
 .input[disabled]:-moz-placeholder,
 .textarea[disabled]:-moz-placeholder {
-  color: rgba(122, 122, 122, 0.3);
+  color: rgba(107, 101, 90, 0.3);
 }
 .input[disabled]:-ms-input-placeholder,
 .textarea[disabled]:-ms-input-placeholder {
-  color: rgba(122, 122, 122, 0.3);
+  color: rgba(107, 101, 90, 0.3);
 }
 .input[readonly],
 .textarea[readonly] {
@@ -2731,7 +2731,7 @@ a.box:active {
 }
 .checkbox[disabled],
 .radio[disabled] {
-  color: #7a7a7a;
+  color: #6b655a;
   cursor: not-allowed;
 }
 
@@ -2790,19 +2790,19 @@ a.box:active {
   background-color: #F2F5F7;
   border-color: #F2F5F7;
   box-shadow: none;
-  color: #7a7a7a;
+  color: #6b655a;
 }
 .select select[disabled]::-moz-placeholder {
-  color: rgba(122, 122, 122, 0.3);
+  color: rgba(107, 101, 90, 0.3);
 }
 .select select[disabled]::-webkit-input-placeholder {
-  color: rgba(122, 122, 122, 0.3);
+  color: rgba(107, 101, 90, 0.3);
 }
 .select select[disabled]:-moz-placeholder {
-  color: rgba(122, 122, 122, 0.3);
+  color: rgba(107, 101, 90, 0.3);
 }
 .select select[disabled]:-ms-input-placeholder {
-  color: rgba(122, 122, 122, 0.3);
+  color: rgba(107, 101, 90, 0.3);
 }
 .select select::-ms-expand {
   display: none;
@@ -2954,7 +2954,7 @@ a.box:active {
   font-size: 1.5rem;
 }
 .select.is-disabled::after {
-  border-color: #7a7a7a;
+  border-color: #6b655a;
 }
 .select.is-fullwidth {
   width: 100%;
@@ -3575,7 +3575,7 @@ a.box:active {
   z-index: 4;
 }
 .control.has-icon .input:focus + .icon {
-  color: #7a7a7a;
+  color: #6b655a;
 }
 .control.has-icon .input.is-small + .icon {
   font-size: 0.75rem;
@@ -3601,7 +3601,7 @@ a.box:active {
 .control.has-icons-left .input:focus ~ .icon,
 .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon,
 .control.has-icons-right .select:focus ~ .icon {
-  color: #7a7a7a;
+  color: #6b655a;
 }
 .control.has-icons-left .input.is-small ~ .icon,
 .control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon,
@@ -4802,7 +4802,7 @@ a.dropdown-item.is-active {
 }
 
 .menu-label {
-  color: #7a7a7a;
+  color: #6b655a;
   font-size: 0.75em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -6075,7 +6075,7 @@ body.has-spaced-navbar-fixed-bottom {
   background-color: #dbdbdb;
   border-color: #dbdbdb;
   box-shadow: none;
-  color: #7a7a7a;
+  color: #6b655a;
   opacity: 0.5;
 }
 
@@ -6253,7 +6253,7 @@ label.panel-block:hover {
   text-align: center;
   vertical-align: top;
   width: 1em;
-  color: #7a7a7a;
+  color: #6b655a;
   margin-right: 0.75em;
 }
 .panel-icon .fa {
@@ -8417,7 +8417,7 @@ html {
   border-bottom-right-radius: 35% 25%;
   border-top-left-radius: 35% 25%;
   border-top-right-radius: 35% 25%;
-  border: 10px solid #395974;
+  border: 4px solid #395974;
 }
 
 .small-hr {
@@ -8446,4 +8446,28 @@ html {
   width: 100%;
   bottom: 0;
   overflow: hidden;
+}
+
+.hero.has-background {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-background {
+  position: absolute;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-background.is-transparent {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 769px), print {
+  .hero.is-medsmall .hero-body {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
 }
